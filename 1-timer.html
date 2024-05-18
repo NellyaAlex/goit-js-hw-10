@@ -4,15 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page 2</title>
-    <script type="module" crossorigin src="/goit-js-hw-10/assets/modulepreload-polyfill-3cfb730f.js"></script>
-    <script type="module" crossorigin src="/goit-js-hw-10/assets/vendor-18b38a61.js"></script>
-    <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-21fdfc57.css">
+    <title>Timer</title>
+    
+    <script type="module" crossorigin src="/goit-js-hw-10/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-3cfb730f.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-77e16229.js">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-7a007824.css">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/styles-a9677eb8.css">
   </head>
   <body>
     <section>
-      <a href="./index.html">Home page</a>
-      <h1>Snackbar</h1>
+      <ul class="navigation list">
+        <li class="item">
+          <a href="./index.html" class="link">Home page</a>
+        </li>
+        <li class="item">
+          <a href="./2-snackbar.html" class="link">Snackbar</a>
+        </li>
+      </ul>
+
+      <h1 class="timer-title">Timer</h1>
 
       <input type="text" id="datetime-picker" />
       <button type="button" data-start>Start</button>
